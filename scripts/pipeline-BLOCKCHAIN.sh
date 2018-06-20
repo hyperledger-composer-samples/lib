@@ -2,7 +2,7 @@
 
 set -ex
 
-source ./pipeline-COMMON.sh
+source "${SCRIPT_DIR}/pipeline-COMMON.sh"
 
 export BLOCKCHAIN_SERVICE_NAME=ibm-blockchain-5-prod
 export BLOCKCHAIN_SERVICE_PLAN=ibm-blockchain-plan-v1-starter-prod

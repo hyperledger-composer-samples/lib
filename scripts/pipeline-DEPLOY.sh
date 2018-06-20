@@ -2,9 +2,9 @@
 
 set -ex
 
-source ./pipeline-COMMON.sh
-source ./pipeline-CLOUDANT.sh
-source ./pipeline-BLOCKCHAIN.sh
+source "${SCRIPT_DIR}/pipeline-COMMON.sh"
+source "${SCRIPT_DIR}/pipeline-CLOUDANT.sh"
+source "${SCRIPT_DIR}/pipeline-BLOCKCHAIN.sh"
 
 export CONTRACTS=$(ls contracts)
 export APPS=$(ls apps)
